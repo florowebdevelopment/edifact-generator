@@ -3,6 +3,7 @@
 <a href="https://packagist.org/packages/florowebdevelopment/edifact-generator"><img src="https://poser.pugx.org/florowebdevelopment/edifact-generator/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/florowebdevelopment/edifact-generator"><img src="https://poser.pugx.org/florowebdevelopment/edifact-generator/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/florowebdevelopment/edifact-generator"><img src="https://poser.pugx.org/florowebdevelopment/edifact-generator/license.svg" alt="License"></a>
+<img src="https://github.styleci.io/repos/177119498/shield?style=flat" alt="StyleCI">
 
 ## Install
 
