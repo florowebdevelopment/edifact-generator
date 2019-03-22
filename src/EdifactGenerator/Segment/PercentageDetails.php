@@ -19,11 +19,11 @@ class PercentageDetails extends Segment
     /**
      * Set Percentage Details (C501).
      *
-     * @param mixed $sPercentageTypeCodeQualifier (5245)
-     * @param mixed $sPercentage (5482)
+     * @param mixed $sPercentageTypeCodeQualifier       (5245)
+     * @param mixed $sPercentage                        (5482)
      * @param mixed $sPercentageBasisIdentificationCode (5249)
-     * @param mixed $sCodeListIdentificationCode (1131)
-     * @param mixed $sCodeListResponsibleAgencyCode (3055)
+     * @param mixed $sCodeListIdentificationCode        (1131)
+     * @param mixed $sCodeListResponsibleAgencyCode     (3055)
      *
      * @return self $this
      */
@@ -72,7 +72,7 @@ class PercentageDetails extends Segment
     }
 
     /**
-     * Set Status Description Code
+     * Set Status Description Code.
      *
      * @param mixed $sStatusDescriptionCode (4405)
      *
