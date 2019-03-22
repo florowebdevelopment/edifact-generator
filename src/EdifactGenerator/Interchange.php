@@ -23,8 +23,8 @@ class Interchange
             $this->interchangeCode = $interchangeCode;
         }
 
-        $this->sender=$sender;
-        $this->receiver=$receiver;
+        $this->sender = $sender;
+        $this->receiver = $receiver;
 
         if ($date === null) {
             $this->date = date('ymd');
@@ -44,6 +44,7 @@ class Interchange
     public function setCharset($identifier, $version)
     {
         $this->charset = [$identifier, $version];
+
         return $this;
     }
 

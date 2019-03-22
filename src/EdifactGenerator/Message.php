@@ -6,7 +6,7 @@ class Message
 {
     protected $messageID = null;
     protected $messageContent = null;
-    protected $messageType= null;
+    protected $messageType = null;
     protected $aComposed = [];
 
     public function __construct($identifier, $version, $release = null, $controllingAgency = null, $messageID = null, $association = null)
@@ -56,8 +56,8 @@ class Message
      * Compose.
      *
      * @param mixed $sMessageFunctionCode (1225)
-     * @param mixed $sDocumentNameCode (1001)
-     * @param mixed $sDocumentIdentifier (1004)
+     * @param mixed $sDocumentNameCode    (1001)
+     * @param mixed $sDocumentIdentifier  (1004)
      *
      * @return self $this
      */
